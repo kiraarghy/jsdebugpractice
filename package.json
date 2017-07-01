@@ -1,0 +1,30 @@
+{
+  "name": "jsdebugpractice",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chart.js": "^2.6.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-polyfill": "^6.23.0",
+    "enzyme": "^2.8.2",
+    "jasmine": "^2.6.0",
+    "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.3",
+    "react-addons-test-utils": "^15.6.0",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "karma start karma.conf.js",
+    "eject": "react-scripts eject"
+  }
+}
